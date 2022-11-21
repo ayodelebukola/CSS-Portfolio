@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    /* background-color: black; */
+}
+body{
+    margin: 20px;
+    border: 2px solid rgb(192, 129, 12);
+    background-color: beige;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+    cursor: pointer;
+}
+
+li, a, button{
+    color: rgb(192, 129, 12);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+ header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px 80px;
+    background-color: wheat;
+ }
+ .firstp{
+    padding-right: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(192, 129, 12);
+ }
+ .navlinks{
+    list-style-type: none;
+ }
+ .navlinks li{
+    display: inline-block;
+    padding: 0 30px;
+ }
+ .navlinks li a:hover{
+    color: black;
+ }
+ .contact{
+    /* margin-left: 45px; */
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ .contact:hover{
+    background-color: bisque;
+ }
+ .picture{
+    width: 30%;
+    height: 10%;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+ }
+ .firstsection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .pictureside{
+    padding-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 173, 20);
+}
+.pictureside2{
+    padding-left: 30px;
+    padding-right: 30%;
+    font-size: 22px;
+    color: gray;
+}
+.secondsection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.secondsection1{
+    /* border: 2px solid rgb(255, 173, 20);
+    margin: 5px 800px 5px 5px; */
+    margin: 0 30px;
+}
+.underpicture{
+    padding-left: 50px;
+    padding-right: 40%;
+    padding-top: 50px;
+    color: rgb(255, 173, 20);
+    font-size: 30px;
+    font-weight: 700;
+}
+.underpicture2{
+    padding-left: 50px;
+    padding-right: 40%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    color: gray;
+}
+.navlinks2{
+    list-style-type: none;
+}
+.navlinks2 li{
+    /* display: inline-block; */
+    display:inline-block;
+    padding: 10px 10px;
+}
+.navlinks2 button{
+    padding: 9px 25px;
+    background-color: rgb(192, 129, 12);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.navlinks2 button:hover{
+    background-color: wheat;
+}
