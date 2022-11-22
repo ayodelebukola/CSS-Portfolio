@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
-    /* background-color: black; */
 }
 body{
     margin: 20px;
@@ -27,7 +26,6 @@ li, a, button{
 }
  header{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 20px 80px;
     background-color: wheat;
@@ -50,7 +48,6 @@ li, a, button{
     color: black;
  }
  .contact{
-    /* margin-left: 45px; */
     padding: 9px 25px;
     background-color: white;
     border: none;
@@ -93,8 +90,6 @@ li, a, button{
     
 }
 .secondsection1{
-    /* border: 2px solid rgb(255, 173, 20);
-    margin: 5px 800px 5px 5px; */
     margin: 0 30px;
 }
 .underpicture{
@@ -117,7 +112,6 @@ li, a, button{
     list-style-type: none;
 }
 .navlinks2 li{
-    /* display: inline-block; */
     display:inline-block;
     padding: 10px 10px;
 }
